@@ -1,0 +1,31 @@
+Insurance Pricing ?? XGBoost Training Report
+=======================================================
+
+Dataset
+  Total samples : 5000
+  Train / Test  : 4000 / 1000
+  Features      : 15
+
+DRI Regressor (XGBoost)
+  MAE    : 1.7270
+  RMSE   : 2.2011
+  R??     : 0.9742
+  Train time : 2.8s
+
+Tier Classifier (XGBoost)
+  Accuracy   : 0.8930
+  Train time : 7.0s
+
+Classification Report
+              precision    recall  f1-score   support
+
+       Basic       0.93      0.91      0.92       304
+    Standard       0.89      0.91      0.90       494
+    Enhanced       0.86      0.81      0.83       179
+     Premium       0.79      0.90      0.84        21
+       Elite       0.00      0.00      0.00         2
+
+    accuracy                           0.89      1000
+   macro avg       0.69      0.71      0.70      1000
+weighted avg       0.89      0.89      0.89      1000
+

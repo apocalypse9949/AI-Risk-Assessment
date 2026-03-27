@@ -1,0 +1,17 @@
+[
+  "weather_risk",
+  "rain_mm_hr",
+  "wind_kph",
+  "visibility_m_norm",
+  "disaster_flag",
+  "traffic_risk",
+  "zone_risk",
+  "is_peak_hour",
+  "density_encoded",
+  "exposure_risk",
+  "vehicle_risk",
+  "weekly_hours_norm",
+  "experience_norm",
+  "night_shift",
+  "days_per_week"
+]
